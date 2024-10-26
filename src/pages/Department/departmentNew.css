@@ -1,0 +1,50 @@
+.department-new-page {
+    padding: 16px 28px;
+    background-color: rgb(217, 217, 217);
+}
+
+.department-new-page .field {
+    margin-bottom: 12px;
+}
+
+.department-new-page label {
+    font-size: 24px;
+}
+
+.department-new-page input {
+    height: 20px;
+}
+
+.department-new-page .button {
+    height: 40px;
+    width: 75px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+}
+
+.department-new-page .button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.department-new-page .button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+
+.department-new-page .buttons .cancel {
+    margin-left: auto;
+    background-color: rgb(206, 59, 59);
+}
+
+.department-new-page .buttons .save {
+    margin-left: 12px;
+    background-color: rgb(51, 207, 51);
+}
