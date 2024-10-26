@@ -1,0 +1,96 @@
+
+.item {
+    background-color: aquamarine;
+}
+
+
+.item .info {
+    min-height: 60px;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 20px;
+    border-bottom: 1px solid wheat;
+
+
+}
+
+.item .info.selected {
+    background-color: darkcyan;
+}
+
+.item .info:hover {
+    cursor: pointer;
+    opacity: 0.85;
+    background-color: darkcyan;
+}
+
+.item .info .department-info{
+    width: 80%;
+    height: 100%;
+    align-items: center;
+
+
+}
+
+.item .info .staff{
+    margin-left: auto;
+}
+
+.item .employee {
+    height: 40px;
+    padding-left: 50px;
+    align-items: center;
+    border-bottom: 1px solid rgb(254, 250, 242);
+    background-color: rgb(222, 222, 222);
+
+}
+
+.item .employee:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.item .name {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.item .expand-button {
+    margin-left: auto;
+}
+
+
+.create-button .button{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    text-transform: uppercase;
+}
+
+.create-button .button:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.button-wrapper {
+    height: 32px;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    border: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-wrapper.expanded {
+    background-color: aliceblue;
+
+}
+
+.button-wrapper:hover {
+    background-color: aliceblue;
+    opacity: 0.85;
+}
