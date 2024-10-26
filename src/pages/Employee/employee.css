@@ -1,0 +1,40 @@
+.employee-page .employee-detail {
+    min-height: 60px;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 20px;
+    border-bottom: 1px solid wheat;
+    background-color: aquamarine;
+}
+
+.employee-page .employee-detail:hover {
+    cursor: pointer;
+    background-color: rgb(93, 186, 155);
+}
+
+.employee-page .field {
+    margin: auto;
+}
+.employee-page .field > div {
+    font-size: 22px;
+
+}
+
+.employee-page .field label {
+    pointer-events: none;
+}
+
+.employee-page .create-button {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    text-transform: uppercase;
+}
+
+.employee-page .create-button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 212, 212);
+}
+
