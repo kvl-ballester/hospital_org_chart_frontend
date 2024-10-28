@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
-import { getEmployeeById } from "../../services/api"
+import { deleteEmployee, getEmployeeById } from "../../services/api"
 import { IoPerson } from "react-icons/io5";
 import "./employeeDetail.css"
 
@@ -25,7 +25,12 @@ export default function EmployeeDetail() {
     }
 
     async function handleRemove() {
-        console.log('click remove')
+        try {
+            await deleteEmployee(id)
+            navigate('/employee')
+        } catch (error) {
+            alert(error)
+        }
     }
     
     return <div className="main">
