@@ -13,7 +13,8 @@
 }
 
 .employee-page .field {
-    margin: auto;
+    width: 33%;
+    margin-left: 16px;
 }
 .employee-page .field > div {
     font-size: 22px;
