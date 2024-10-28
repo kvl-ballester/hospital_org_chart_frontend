@@ -29,6 +29,11 @@ export default function EmployeeEditNew() {
             const departments = await getDepartments()
             const names = departments.map(department => department.name)
             setDepartmentNames(names)
+
+            //set value showing in list in department state when creating employee
+            if(!id) {
+                setDepartment(names[0])
+            }
         }
 
 
