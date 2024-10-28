@@ -25,20 +25,22 @@ export default function Department() {
     }
     
     return <>
+        <div className="main">
         {departments.length !== 0 &&
-            <div className="main">
-                <div className="department-list">
-                    { 
-                        departments.map((department) => {
-                            return <DepartmentItem key={department._id} department={department} />
-                        })
-                    }
-                </div>
-                <div className="create-button">
-                    <div className="button" onClick={handleNew}>New Department</div>
-                </div>
+            <div className="department-list">
+                { 
+                    departments.map((department) => {
+                        return <DepartmentItem key={department._id} department={department} />
+                    })
+                }
             </div>
+                
         }
+            <div className="create-button">
+                <div className="button" onClick={handleNew}>Create Department</div>
+            </div>
+
+        </div>
     </>
         
 }
