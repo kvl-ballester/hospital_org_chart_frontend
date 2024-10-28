@@ -1,4 +1,3 @@
-// TO DO IMPORT FROM ENV FILE DOESNOT WORK
 const API_URL = 'http://localhost:3000'
 
 export async function getDepartments() {
