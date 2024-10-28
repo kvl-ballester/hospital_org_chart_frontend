@@ -1,0 +1,48 @@
+.employee-edit-new-page {
+    padding: 16px 28px;
+}
+
+.employee-edit-new-page .field {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.employee-edit-new-page .field input {
+    height: 20px;
+}
+
+.employee-edit-new-page .field select {
+    height:26px;
+    line-height:26px;
+}
+
+.employee-edit-new-page .button {
+    height: 40px;
+    width: 85px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+}
+
+.employee-edit-new-page .button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+.employee-edit-new-page .button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+.employee-edit-new-page .buttons .cancel {
+    margin-left: auto;
+    background-color: rgb(175, 74, 74);
+}
+.employee-edit-new-page .buttons .save {
+    margin-left: 12px;
+    background-color: rgb(72, 185, 52);
+}
